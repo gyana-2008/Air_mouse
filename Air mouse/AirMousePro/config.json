@@ -1,0 +1,12 @@
+{
+    "hand_mouse_enabled": true,
+    "face_mouse_enabled": false,
+    "eye_tracking_enabled": false,
+    "dpi": 1.0,
+    "scroll_speed": 400,
+    "theme": "dark",
+    "gest_thumb_up_enabled": true,
+    "cursor_enabled": true,
+    "gest_thumb_down_enabled": true,
+    "gest_rock_enabled": true
+}

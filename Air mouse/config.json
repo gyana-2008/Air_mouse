@@ -1,0 +1,12 @@
+{
+    "mouse_dpi": 2.5,
+    "gest_pinky_action": "NONE",
+    "face_mouse_enabled": false,
+    "hand_mouse_enabled": true,
+    "face_double_blink_action": "ARROW_DOWN",
+    "eye_tracking_enabled": true,
+    "eye_mouth_enabled": true,
+    "face_left_blink_action": "LEFT_CLICK",
+    "face_right_blink_action": "RIGHT_CLICK",
+    "tracking_accuracy": "HIGH"
+}
