@@ -1,7 +1,5 @@
-# Air_mouse
-a virtual computer vision controled mouse and shortcuts
 ============================================================
-AIRMOUSE PRO - INSTRUCTIONS & DOCUMENTATION
+AIRMOUSE PRO - README & DOCUMENTATION
 ============================================================
 
 AirMouse Pro is an advanced, touchless computer vision control system built in Python. It allows you to control your Windows PC using your hands, nose, eyes, and mouth gestures via your webcam.
@@ -22,25 +20,29 @@ AirMouse Pro is an advanced, touchless computer vision control system built in P
 ------------------------------------------------------------
 * Windows OS (64-bit)
 * A working computer webcam
-* Python 3.12+ (if running from source)
+* Python 3.12+
 
 
 ------------------------------------------------------------
-3. HOW TO INSTALL & RUN (FROM SOURCE)
+3. HOW TO INSTALL & RUN FROM SOURCE (GITHUB REPO)
 ------------------------------------------------------------
+Since this repository contains the raw Python source files (.py), follow these steps to run the application on your computer:
+
 1. Clone or download this repository to your local machine.
-2. Open a terminal inside the project directory and install the required dependencies:
+2. Open a terminal (Command Prompt or VS Code terminal) inside the project root directory.
+3. Install the required Python dependencies by running:
    pip install opencv-python mediapipe pyautogui numpy
-3. Run the application:
+4. Run the application:
    python main.py
 
 
 ------------------------------------------------------------
-4. HOW TO BUILD THE STANDALONE EXECUTABLE (.exe)
+4. HOW TO BUILD A STANDALONE EXECUTABLE (.exe) LOCALLY
 ------------------------------------------------------------
-If you want to compile the project into a standalone application so it runs without Python installed, you can use the automated build script (`build.bat`).
+If you want to compile the Python source code into a standalone `.exe` application so it runs without needing a Python environment:
 
-Create a file named `build.bat` in your root project folder and paste the following commands into it:
+1. Create a file named `build.bat` in your root project folder (right next to `main.py` and `icon.ico`).
+2. Paste the following commands into `build.bat`:
 
 ------------------------------------------------------------
 @echo off
@@ -60,15 +62,5 @@ echo ========================================================
 pause
 ------------------------------------------------------------
 
-To build:
-1. Double-click `build.bat` to automatically build the application.
-2. Find your complete app folder inside `dist/AirMousePro`.
-
-
-------------------------------------------------------------
-5. HOW TO SHARE WITH FRIENDS
-------------------------------------------------------------
-1. Locate the "AirMousePro" folder inside the "dist/" directory after running the builder.
-2. Compress the entire "AirMousePro" folder into a .zip file.
-3. Send the .zip file to your friend.
-4. IMPORTANT INSTRUCTION FOR USERS: Instruct your friend to extract/unzip the entire folder before opening it, then double-click "AirMousePro.exe" from inside that extracted folder to run it.
+3. Double-click `build.bat` to automatically build the application.
+4. Find your complete, runnable app folder inside `dist/AirMousePro`.
