@@ -1,10 +1,27 @@
-# AIRMOUSE PRO – README & DOCUMENTATION
+
+# 🖱️ AIRMOUSE PRO – README & DOCUMENTATION
 
 AirMouse Pro is an advanced, touchless computer vision control system built in Python. It allows you to control your Windows PC using your hands, nose, eyes, and mouth gestures via your webcam.
 
 ---
 
-## 1. FEATURES OVERVIEW
+<div align="center">
+
+## 🚀 DOWNLOAD AIRMOUSE PRO
+
+### Experience touchless computer control!
+
+<a href="https://drive.google.com/file/d/1rmED1PgsmGS_VSN547N1whcnIMKv0_ye/view?usp=sharing">
+  <img src="https://img.shields.io/badge/⬇_DOWNLOAD-AIRMOUSE_PRO-blue?style=for-the-badge&logo=googledrive&logoColor=white" alt="Download AirMouse Pro">
+</a>
+
+**Windows 64-bit | Prebuilt Executable | No Python Installation Required**
+
+</div>
+
+---
+
+## 📌 1. FEATURES OVERVIEW
 
 - **Hand & Gesture Tracking:** Move the cursor using pinch gestures, perform multi-hand zooming, and trigger system macros using hand signs (peace sign, thumbs up/down, rock sign).
 - **Face & Nose Tracking:** Use your nose as a virtual mouse pointer with an adjustable safety clutch.
@@ -14,7 +31,7 @@ AirMouse Pro is an advanced, touchless computer vision control system built in P
 
 ---
 
-## 2. PREREQUISITES
+## 💻 2. PREREQUISITES
 
 - Windows OS (64-bit)
 - A working computer webcam
@@ -27,15 +44,15 @@ AirMouse Pro is an advanced, touchless computer vision control system built in P
 
 ---
 
-## 3. DOWNLOAD & RUN THE APPLICATION (.EXE)
+## 📥 3. DOWNLOAD & RUN THE APPLICATION (.EXE)
 
 AirMouse Pro includes a prebuilt Windows executable, allowing users to run the application without installing Python or manually configuring dependencies.
 
-### Steps:
+### Download:
 
-1. Open the GitHub repository.
-2. Navigate to the executable distribution folder or the repository's Releases section.
-3. Download the provided AirMouse Pro executable package.
+1. Click the download button at the top of this README.
+2. Open the Google Drive download page.
+3. Download the provided AirMouse Pro package.
 4. If downloading a ZIP package, extract it completely.
 5. Open the extracted folder.
 6. Double-click `AirMousePro.exe` to launch the application.
@@ -44,23 +61,29 @@ AirMouse Pro includes a prebuilt Windows executable, allowing users to run the a
 **Important:**
 - Keep the complete application folder intact when using the executable.
 - Do not move the `.exe` separately from its supporting files when using an onedir build.
-- Windows SmartScreen may display a security warning for an unsigned executable. Only run it if you downloaded it from the official project repository.
+- Windows SmartScreen may display a security warning for an unsigned executable. Only run it if you trust the source.
 
 ---
 
-## 4. HOW TO INSTALL & RUN FROM SOURCE (GITHUB REPOSITORY)
+## 🐍 4. HOW TO INSTALL & RUN FROM SOURCE (GITHUB REPOSITORY)
 
 If you prefer to run the application using its original Python source code:
 
-1. Clone or download this repository to your local machine.
-2. Open a terminal (Command Prompt or VS Code terminal) inside the project root directory.
-3. Install the required Python dependencies:
+### Step 1: Clone or download the repository
+
+Download the repository to your local machine.
+
+### Step 2: Open the project directory
+
+Open Command Prompt or VS Code terminal inside the project root directory.
+
+### Step 3: Install dependencies
 
 ```bash
 pip install opencv-python mediapipe pyautogui numpy
 ```
 
-4. Run the application:
+### Step 4: Run the application
 
 ```bash
 python main.py
@@ -68,7 +91,7 @@ python main.py
 
 ---
 
-## 5. HOW TO BUILD A STANDALONE EXECUTABLE (.EXE) LOCALLY
+## ⚙️ 5. HOW TO BUILD A STANDALONE EXECUTABLE (.EXE) LOCALLY
 
 If you want to compile the Python source code into your own standalone executable:
 
@@ -124,7 +147,7 @@ Your executable and its supporting files will be available inside this folder.
 
 ---
 
-## 6. IMPORTANT NOTES
+## ⚠️ 6. IMPORTANT NOTES
 
 - The prebuilt executable is intended for Windows 64-bit systems.
 - A working webcam is required for camera-based functionality.
@@ -134,4 +157,12 @@ Your executable and its supporting files will be available inside this folder.
 
 ---
 
-**AirMouse Pro – Experience a new way to interact with your computer, completely touch-free.**
+<div align="center">
+
+## ✨ AIRMOUSE PRO
+
+**Experience a new way to interact with your computer, completely touch-free.**
+
+*Control Beyond Touch. Experience the Future.*
+
+</div>
